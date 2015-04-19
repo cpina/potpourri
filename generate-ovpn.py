@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Any questions: carles@pina.cat
+Any questions: Carles Pina i Estany <carles@pina.cat>
 """
 
 import argparse
