@@ -16,7 +16,7 @@ def deduplicate(path):
     # deletes the last one if it's the same as the pre-last one
     files=glob.glob(path + "/*")
 
-    if len(files) <= 2:
+    if len(files) <= 1:
         # There aren't duplicates
         return
 
