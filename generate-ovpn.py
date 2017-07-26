@@ -17,7 +17,7 @@ def read_file(filepath):
 
 def read_files(basename):
     files = {}
-    files['template'] = read_file('keys/template.tmpl')
+    files['template'] = read_file('template.tmpl')
     files['ca'] = read_file('keys/ca.crt')
     files['cert'] = get_certificate(read_file('keys/%s.crt' % basename))
     files['key'] = read_file('keys/%s.key' % basename)
